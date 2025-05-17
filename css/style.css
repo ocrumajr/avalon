@@ -1,0 +1,92 @@
+* {
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+/* Just to visualize DIVS*/
+div {
+  border-style: double;
+}
+
+/* Start Header with Logo */
+#header-container {
+  display: flex;
+  align-items: center;
+  color: #0097b2;
+  border-style: dotted;
+}
+
+/* Logo styles */
+#logo {
+  max-width: 150px;
+}
+
+#logo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-right: auto;
+  vertical-align: middle;
+  /* color: #ffffff; */
+}
+/* End Header with Logo */
+
+/* Start Navigation Bar*/
+nav {
+  width: 100%;
+  background-color: #0097b2;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* End Navigation Bar*/
+
+/* Start Hero Section */
+.hero-container {
+  position: relative;
+  color: #ffffff;
+}
+
+.hero-image {
+  background-image: url("/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  display: block;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+/* End Hero Section */
+
+/* ===== Media break points for responsive design ===== */
