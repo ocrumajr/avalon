@@ -3,41 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avalon Adventures</title>
+    <title>Avlon Adventures</title>
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="js/headfoot.js"></script>
   </head>
   <body>
-    <!-- Start Header Section -->
-    <header>
-      <div id="header-container">
-        <div>
-          <img
-            src="/img/logo/Avalon-Adventures-Transparent.png"
-            alt="Logo"
-            id="logo"
-          />
-        </div>
-        <div id="logo-title">AVALON ADVENTURES</div>
-      </div>
+    <!-- START HEADER -->
+    <site-header></site-header>
+    <!-- END HEADER -->
 
-      <!-- Start Navigation Bar Section-->
-      <nav role="navigation" class="topnav">
-        <ul>
-          <li><a class="uil uil-house-user" href="#">Home</a></li>
-          <li><a class="uil uil-align-justify" href="#">Services</a></li>
-          <li><a class="uil uil-file-alt" href="#">About Us</a></li>
-          <li><a class="uil uil-phone" href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-      <!-- End Navigation Bar Section-->
-    </header>
-    <!-- End Header Section -->
-
-    <!-- Main Content Section -->
+    <!-- START CONTENT -->
     <main>
       <div class="hero-container">
         <div
@@ -62,8 +41,21 @@
         bring families closer together and create lasting bonds.
       </div>
     </main>
+    <!-- END CONTENT -->
 
-    <!-- Footer Section -->
-    <footer>{{ footer content }}</footer>
+    <!-- START FOOTER -->
+    <!-- <site-footer></site-footer> -->
+    <footer class="footer">
+      <div class="footer__content">
+        <a href="default.html" class="footer__logo">
+          <img
+            src="../img/logo/Avalon-Adventures-White-Logo.png"
+            class="footer__logo__img"
+          />
+          <p class="footer__logo__title">AVALON ADVENTURES</p>
+        </a>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
   </body>
 </html>
