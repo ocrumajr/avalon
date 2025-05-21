@@ -10,7 +10,6 @@ body {
   background-color: #e8f0f7;
   font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
   min-height: 5000px; /* TODO DELETE: for dev purpose only */
-  padding-top: 6em;
 }
 
 a {
@@ -24,18 +23,22 @@ ul {
 /* END BASE Styles*/
 
 /* START HEADER */
+.header__social {
+  background-color: #cbf7ff;
+}
+
 .header {
   background-color: #2f4858;
   width: 100%;
   top: 0;
-  position: fixed;
+  position: sticky;
 }
 
 .header__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 2em;
 }
@@ -46,7 +49,7 @@ ul {
 }
 
 .logo__img {
-  max-width: 6em;
+  max-width: 4em;
   display: block;
 }
 
@@ -109,11 +112,6 @@ ul {
 .btn__contact:hover {
   background-color: #00937e;
 }
-
-/* .btn__contact i {
-  padding: 0;
-  margin-right: 0.4em;
-} */
 /* END HEADER */
 
 /* START FOOTER */
@@ -153,7 +151,7 @@ ul {
 
 /* Start Hero Section */
 .hero-container {
-  position: relative;
+  /* position: relative; */
   color: #ffffff;
 }
 
@@ -162,13 +160,13 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 50em;
   width: 100%;
   /* display: block; */
 }
 
 .hero-text {
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
