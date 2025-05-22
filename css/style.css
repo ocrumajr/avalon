@@ -7,7 +7,7 @@
 
 /* START BASE Styles */
 body {
-  background-color: #e8f0f7;
+  background-color: #f7f7f7;
   font-size: 62.5%;
   font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
 }
@@ -133,3 +133,15 @@ ul {
   background-color: #00937e;
 }
 /* END HEADER */
+
+/* START Content */
+.mainbody__container {
+  border-style: dashed;
+  height: 500px; /*DELETE for dev only*/
+}
+
+.kontent__container {
+  border-style: dashed;
+  height: 300px; /*DELETE for dev only*/
+}
+/* END Content */
