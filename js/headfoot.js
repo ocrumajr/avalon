@@ -1,9 +1,11 @@
+// Script to insert the HEADER  into a page
 class siteHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header class="header">
             <div class="social__container">
                 <div class="social__content">
+                    <p>Connect with us:</p>
                     <ul class="social__list">
                         <li>
                             <a href="#"><i class="uil uil-facebook"></i></a>
@@ -50,6 +52,7 @@ class siteHeader extends HTMLElement {
   }
 }
 
+// Script to insert the FOOTER  into a page
 customElements.define("site-header", siteHeader);
 
 class siteFooter extends HTMLElement {
